@@ -1,7 +1,26 @@
 
 let _loadedImages = 0;
 const _imageArray = new Array(
-    'x.png',
+    // Background
+    // //////////
+    'background.jpg',
+    'ballons.png',
+
+    // Character
+    // /////////
+    'body.png',
+
+    // Character
+    // /////////
+    'openDoor.png',
+    'nutmovil.png',
+    'street.png',
+
+    // Catch Phrases
+    // /////////////
+    'catchPhrase-final.png',
+    'catchPhrase-intro.png',
+    'catchPhrase-preFinal.png',
 );
 
 // Rect Values (0px: Top Value, 0px: Right Value, 0px: Bottom Value, 0px: Left Value).
