@@ -46,3 +46,103 @@
   height: 250px;
   width: 300px;
 }
+
+.street-lines-position {
+  background: url('street.png');
+  height: 165px;
+  width: 300px;
+  position: absolute;
+  bottom: -2px;
+}
+
+.footer-banner {
+  background: url('footer.jpg');
+  height: 37px;
+  width: 300px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.first-phrase-position {
+  background: url('catchPhrase-intro.png');
+  height: 108px;
+  width: 192px;
+  position: absolute;
+  top: 3px;
+}
+
+.second-phrase-position {
+  background: url('catchPhrase-preFinal.png');
+  height: 45px;
+  width: 232px;
+  position: absolute;
+  top: 3px;
+  left: 31px;
+}
+
+.third-phrase-position {
+  background: url('catchPhrase-final.png');
+  height: 120px;
+  width: 185px;
+  position: absolute;
+  top: 26px;
+  left: 118px;
+}
+
+.nutmovile-movedTo {
+  background: url('nutmovil.png');
+  height: 188px;
+  width: 232px;
+  position: absolute;
+  top: 23px;
+  left: 164px;
+}
+
+.nutmovile-position {
+  background: url('nutmovil.png');
+  height: 188px;
+  width: 232px;
+  position: absolute;
+  top: 41px;
+  left: 44px;
+}
+
+.mrPeanut-body-position {
+  background: url('body.png');
+  height: 330px;
+  width: 185px;
+  position: absolute;
+  top: -6px;
+  left: 109px;
+  transform: scale(0.37);
+}
+
+.mrPeanut-zoomed-position {
+  background: url('body.png');
+  height: 330px;
+  width: 185px;
+  position: absolute;
+  top: 21px;
+  left: 13px;
+  transform: scale(1.1);
+}
+
+.ballons-position {
+  background: url('ballons.png');
+  height: 330px;
+  width: 185px;
+  position: absolute;
+  top: -47px;
+  left: 87px;
+  transform: scale(0.37);
+}
+
+.door-opened-position {
+  background: url('openDoor.png');
+  height: 92px;
+  width: 55px;
+  position: absolute;
+  top: 93px;
+  left: 137px;
+}
+
