@@ -1,35 +1,13 @@
 
 let _loadedImages = 0;
 const _imageArray = new Array(
-    'aloneShine.png',
-    'blackground.png',
-    'bodylessCharacter.png',
-    'finalProduct.png',
-    'orangeGradient.png',
-    'orangeBanner.png',
-    'orangeground.png',
-    'catchPhraseShadow.png',
-    'catchPhraseLess.png',
-    'orangeLine.png',
-    'popCharacter.png',
-    'productBox.png',
-    'productShot.png',
-    'shadelessTitle.png',
-    'shadenessTitle.png',
-    'shadePoke.png',
+    'x.png',
 );
 
 // Rect Values (0px: Top Value, 0px: Right Value, 0px: Bottom Value, 0px: Left Value).
 // Arrays with starting values and ending values for transitions.
-const headGone = ['rect(0px, 90px, 110px, -90px)', 'rect(110px, 90px, 110px, -90px)'];
-const bodyGone = ['rect(0px, 129px, 240px, -129px)', 'rect(129px, 129px, 240px, -129px)'];
+const x = ['rect(0px, 0px, 0px, 0px)', 'rect(0px, 0px, 0px, 0px)'];
 
-const appearCharact = ['rect(0px, 142px, 0px, -142px)', 'rect(0px, 142px, 180px, -142px)'];
-const frontWrap = ['rect(0px, 114px, 0px, -114px)', 'rect(0px, 114px, 221px, -114px)'];
-const backWrap = ['rect(-30px, 114px, 0px, -114px)', 'rect(0px, 114px, 30px, -114px)'];
-const insideWrap = ['rect(-38px, 85px, 0px, -85px)', 'rect(0px, 85px, 38px, -85px)'];
-
-const shinningTo = ['rect(180px, 234px, 0px, -234px)', 'rect(0px, 234px, 180px, -234px)'];
 
 this.addEventListener('DOMContentLoaded', preloadImages);
 
