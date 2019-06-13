@@ -70,10 +70,10 @@ function initAnimations(){
     // /////////////
     .addLabel('fallingConfeti')
     .to('.second-phrase-position', 1, {opacity: ('1')})
-    .staggerTo('.first-confeti-falling', 1, {y: ('300'), rotation: ('100')}, 0.1,'fallingConfeti')
-    .staggerTo('.second-confeti-falling', 1.2, {y: ('300'), rotation: ('-200')}, 0.2,'fallingConfeti')
-    .staggerTo('.third-confeti-falling', 1.3, {y: ('300'), rotation: ('200')}, 0.1,'fallingConfeti')
-    .staggerTo('.fourth-confeti-falling', 1.4, {y: ('300'), rotation: ('-100')}, 0.2,'fallingConfeti')
+    .staggerTo('.first-confeti-falling', 4, {y: ('400'), rotationX: ('1000'), rotationZ: ('1000')}, 0.1,'fallingConfeti')
+    .staggerTo('.second-confeti-falling', 3, {y: ('400'), rotationX: ('-1100'), rotationZ: ('-1100')}, 0.2,'fallingConfeti')
+    .staggerTo('.third-confeti-falling', 4, {y: ('400'), rotationX: ('1200'), rotationZ: ('1200')}, 0.1,'fallingConfeti')
+    .staggerTo('.fourth-confeti-falling', 3, {y: ('400'), rotationX: ('-1300'), rotationZ: ('-1300')}, 0.2,'fallingConfeti')
     
     // Catch Phrase.
     // /////////////
